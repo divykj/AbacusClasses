@@ -1,0 +1,52 @@
+* {
+    transition: background-color 0.5s, color 0.5s, box-shadow 0.5s;
+}
+
+body.dark {
+    background-color: #111;
+}
+
+.dark header.expanded {
+    background-color: transparent;
+    /* box-shadow: 0 6px 15px rgba(0,0,0,0.2); */
+    box-shadow: none;
+}
+
+.dark header {
+    background-color: #111;
+    color: #ddd;
+    box-shadow: 5px 12px 20px rgba(0,0,0,0.3);
+    border-bottom: 1px solid rgba(230, 230, 230, 0.1);
+}
+
+.dark header #title h1 {
+    color: #ccc;
+}
+
+.dark .button {
+    background-image: linear-gradient(135deg, #788dec 0%, #9973be 100%);
+    color: #111;
+}
+
+.dark .button.flat {
+    background-image: none;
+    color: #efebf8;
+}
+
+.dark .card {
+    box-shadow: 0 6px 15px rgba(0,0,0,0.2);
+    background-color: #222;
+    border: 1px solid rgba(230, 230, 230, 0.05);
+}
+
+.dark .card:hover {
+    box-shadow: 5px 12px 20px rgba(0,0,0,0.3);
+}
+
+.dark .card h3 {
+    color: #bbb;
+}
+
+.dark .card p {
+    color: #ccc;
+}

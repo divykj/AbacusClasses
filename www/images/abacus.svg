@@ -1,0 +1,156 @@
+<svg preserveAspectRatio="xMidYMid meet" viewBox="0 0 810 360">
+    <defs>
+        <symbol id="bead" opacity="1" fill-opacity="1" stroke-width="1" stroke="#ff940e" viewBox="0 0 100 60">
+            <path
+                d="M0 30 100 30C90 18 84 11 81 8 77 3 71 0 64 0 63 0 58 0 50 0 42 0 37 0 36 0 29 0 23 3 19 8 16 11 10 18 0 30Z"
+                fill="#ff940e"></path>
+            <path
+                d="M0 30 100 30C90 42 84 49 81 52 77 57 71 60 64 60 63 60 58 60 50 60 42 60 37 60 36 60 29 60 23 57 19 52 16 49 10 42 0 30Z"
+                fill="#cf7605"></path>
+        </symbol>
+
+        <rect rx="20" ry="20" x="15" y="15" width="770" height="320" id="frame" opacity="1" fill-opacity="0"
+            stroke-width="30" stroke-opacity="1"></rect>
+        <path d="M5 10L5 340" id="rod" opacity="1" fill-opacity="0" stroke="#333333" stroke-width="20"
+            stroke-opacity="1"></path>
+        <path d="M10 115L790 115" id="bar" opacity="1" fill-opacity="0" stroke-width="30" stroke-opacity="1">
+        </path>
+    </defs>
+
+    <use href="#bar" x="0" y="0" stroke="#222222"></use>
+    <use href="#frame" x="0" y="0" stroke="#222222"></use>
+
+    <use href="#rod" x="100"></use>
+    <use href="#rod" x="200"></use>
+    <use href="#rod" x="300"></use>
+    <use href="#rod" x="400"></use>
+    <use href="#rod" x="500"></use>
+    <use href="#rod" x="600"></use>
+    <use href="#rod" x="700"></use>
+
+    <use href="#bar" x="0" y="5" stroke="#333333"></use>
+    <use href="#frame" x="5" y="5" stroke="#333333"></use>
+
+    <use href="#bar" x="0" y="10" stroke="#444444"></use>
+    <use href="#frame" x="10" y="10" stroke="#444444"></use>
+
+    <g class="p6">
+        <g class="b4">
+            <g class="b3">
+                <g class="b2">
+                    <g class="b1">
+                        <use href="#bead" x="70" y="161" width="70" height="42"></use>
+                    </g>
+                    <use href="#bead" x="70" y="202" width="70" height="42"></use>
+                </g>
+                <use href="#bead" x="70" y="243" width="70" height="42"></use>
+            </g>
+            <use href="#bead" x="70" y="284" width="70" height="42"></use>
+        </g>
+        <g class="t1">
+            <use href="#bead" x="70" y="40" width="70" height="42"></use>
+        </g>
+    </g>
+    <g class="p5">
+        <g class="b4">
+            <g class="b3">
+                <g class="b2">
+                    <g class="b1">
+                        <use href="#bead" x="170" y="161" width="70" height="42"></use>
+                    </g>
+                    <use href="#bead" x="170" y="202" width="70" height="42"></use>
+                </g>
+                <use href="#bead" x="170" y="243" width="70" height="42"></use>
+            </g>
+            <use href="#bead" x="170" y="284" width="70" height="42"></use>
+        </g>
+        <g class="t1">
+            <use href="#bead" x="170" y="40" width="70" height="42"></use>
+        </g>
+    </g>
+    <g class="p4">
+        <g class="b4">
+            <g class="b3">
+                <g class="b2">
+                    <g class="b1">
+                        <use href="#bead" x="270" y="161" width="70" height="42"></use>
+                    </g>
+                    <use href="#bead" x="270" y="202" width="70" height="42"></use>
+                </g>
+                <use href="#bead" x="270" y="243" width="70" height="42"></use>
+            </g>
+            <use href="#bead" x="270" y="284" width="70" height="42"></use>
+        </g>
+        <g class="t1">
+            <use href="#bead" x="270" y="40" width="70" height="42"></use>
+        </g>
+    </g>
+    <g class="p3">
+        <g class="b4">
+            <g class="b3">
+                <g class="b2">
+                    <g class="b1">
+                        <use href="#bead" x="370" y="161" width="70" height="42"></use>
+                    </g>
+                    <use href="#bead" x="370" y="202" width="70" height="42"></use>
+                </g>
+                <use href="#bead" x="370" y="243" width="70" height="42"></use>
+            </g>
+            <use href="#bead" x="370" y="284" width="70" height="42"></use>
+        </g>
+        <g class="t1">
+            <use href="#bead" x="370" y="40" width="70" height="42"></use>
+        </g>
+    </g>
+    <g class="p2">
+        <g class="b4">
+            <g class="b3">
+                <g class="b2">
+                    <g class="b1">
+                        <use href="#bead" x="470" y="161" width="70" height="42"></use>
+                    </g>
+                    <use href="#bead" x="470" y="202" width="70" height="42"></use>
+                </g>
+                <use href="#bead" x="470" y="243" width="70" height="42"></use>
+            </g>
+            <use href="#bead" x="470" y="284" width="70" height="42"></use>
+        </g>
+        <g class="t1">
+            <use href="#bead" x="470" y="40" width="70" height="42"></use>
+        </g>
+    </g>
+    <g class="p1">
+        <g class="b4">
+            <g class="b3">
+                <g class="b2">
+                    <g class="b1">
+                        <use href="#bead" x="570" y="161" width="70" height="42"></use>
+                    </g>
+                    <use href="#bead" x="570" y="202" width="70" height="42"></use>
+                </g>
+                <use href="#bead" x="570" y="243" width="70" height="42"></use>
+            </g>
+            <use href="#bead" x="570" y="284" width="70" height="42"></use>
+        </g>
+        <g class="t1">
+            <use href="#bead" x="570" y="40" width="70" height="42"></use>
+        </g>
+    </g>
+    <g class="p0">
+        <g class="b4">
+            <g class="b3">
+                <g class="b2">
+                    <g class="b1">
+                        <use href="#bead" x="670" y="161" width="70" height="42"></use>
+                    </g>
+                    <use href="#bead" x="670" y="202" width="70" height="42"></use>
+                </g>
+                <use href="#bead" x="670" y="243" width="70" height="42"></use>
+            </g>
+            <use href="#bead" x="670" y="284" width="70" height="42"></use>
+        </g>
+        <g class="t1">
+            <use href="#bead" x="670" y="40" width="70" height="42"></use>
+        </g>
+    </g>
+</svg>

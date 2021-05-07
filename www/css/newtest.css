@@ -1,0 +1,13 @@
+form {
+    width: 100%;
+    max-width: 100%;
+    margin: 0;
+}
+
+form input[type=submit] {
+    grid-column: 3/5;
+}
+
+form table {
+    grid-column: 2/6;
+}

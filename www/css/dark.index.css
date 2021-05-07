@@ -1,0 +1,8 @@
+.dark main #cover {
+    background-image: linear-gradient(to top, #000 0%, #222 100%);
+    background-image: none;
+}
+
+.dark main #about h2 {
+    color: #ccc;
+}

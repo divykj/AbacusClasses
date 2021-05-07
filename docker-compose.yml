@@ -1,0 +1,34 @@
+version: "2"
+services:
+  www:
+    container_name: php-apache
+    build: .
+    ports:
+      - "80:80"
+    volumes:
+      - ./www:/var/www/html/
+    links:
+      - db
+    env_file:
+      - ./.env
+  db:
+    container_name: mysql-db
+    image: mysql
+    ports:
+      - "3306:3306"
+    env_file:
+      - ./.env
+    volumes:
+      - ./dump:/docker-entrypoint-initdb.d
+      - persistent:/var/lib/mysql
+  phpmyadmin:
+    container_name: phpmyadmin
+    image: phpmyadmin/phpmyadmin
+    links:
+      - db:db
+    ports:
+      - 8000:80
+    env_file:
+      - ./.env
+volumes:
+  persistent:
